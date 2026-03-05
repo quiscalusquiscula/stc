@@ -39,6 +39,11 @@
       line-height: 1.1;
     }
 
+    .site-header h1 a {
+        text-decoration: none;
+        color: var(--orange);
+    }
+
     .site-header .tagline {
       font-family: 'Oswald', sans-serif;
       font-weight: 400;
@@ -264,6 +269,9 @@
       border-top: 1px solid rgba(0,0,0,0.1);
       padding: 1.5rem 2rem;
       text-align: center;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
     }
 
     .footer-links {
