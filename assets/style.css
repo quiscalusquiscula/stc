@@ -451,6 +451,38 @@
         grid-template-columns: repeat(4, 1fr);
     }
 
+    .termine-list {
+  list-style: none;
+  padding: 0;
+}
+
+.year-group {
+  margin-bottom: 2rem;
+}
+
+.year-label {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--orange);
+  display: block;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.08em;
+}
+
+.year-group > ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.year-group > ul li {
+  padding: 0.2rem 0;
+}
+
+.dates {
+    height: 40rem;
+    overflow: scroll;
+}
+
     /* ── RESPONSIVE ── */
     @media (max-width: 700px) {
       .columns {
@@ -475,5 +507,9 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
+      }
+
+      .dates {
+        height: 100%;
       }
     }
